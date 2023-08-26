@@ -3,7 +3,8 @@
 module Bullet
   module Dependency
     def mongoid?
-      @mongoid ||= defined?(::Mongoid)
+      #@mongoid ||= defined?(::Mongoid)
+      false
     end
 
     def active_record?
